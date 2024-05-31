@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: solid 5px rgba(114, 117, 119, 0.363);
+    border-top: solid 5px rgb(114, 117, 119);
+    animation: rotate 1.2s linear 0s infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
